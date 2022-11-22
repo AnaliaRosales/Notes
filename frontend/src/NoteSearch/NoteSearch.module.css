@@ -1,0 +1,42 @@
+.NoteSearchContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.NoteSearch {
+  align-self: center;
+  background: #F9FBFC;
+  border-radius: 2px;
+  border: 2px solid #202329;
+  margin: 0 24px;
+  margin-top: 20px;
+  height: 35px;
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #1E1E1F;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+.NoteSearch::placeholder {
+  color: #A5A5A5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.NoteSearch:focus {
+  outline-color: #93C178;
+}
+
+.CheckboxInput {
+  display: flex;
+  align-items: center;
+  margin: 20px 15px;
+}
+
+.CheckboxInput > input {
+  box-shadow: none;
+  width: 50px;
+}
