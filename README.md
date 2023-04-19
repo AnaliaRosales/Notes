@@ -7,7 +7,7 @@ For the DB, I used SQlite and Sequelize for ORM
 ## FE
   - Enter to `frontend` folder
   - Run `sh start_fe.sh`
-  or
+or
   - Enter to `frontend` folder
   - Run `npm install`
   - Run `npm start`
@@ -19,7 +19,7 @@ _*Important:* from browser enter on 0.0.0.0:3001_
     - Another way to install `sqlite`: https://www.sqlite.org/download.html
   - Enter to `backend` folder
   - Run `sh start_be.sh`
-  or
+ or
   - Enter to `backend` folder
   - Run `npm install`
   - Run `npm start`
